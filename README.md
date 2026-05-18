@@ -18,6 +18,22 @@ Each notebook, named after its respective utility, contains household-level host
 
 To run this code, building point geometries (with information on the number of residential units) and ICA utility data is necessary.
 
+## Variable outputs
+
+
+| Variable                                 | Description                                                                                     |
+| ---------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| GEOID                                    | Census tract GEOID number for the 2020 census                                                   |
+| geometry                                 | Census tract geometry in EPSG:3310 CRS                                                          |
+| avg\_DER\_remain\_pv\_hh                 | Average remaining PV DER capacity per household in kilowatts (kW)                               |
+| avg\_DER\_remain\_pv\_opflex\_hh         | Average remaining PV DER capacity per household with operational flex in kilowatts (kW)         |
+| avg\_DER\_remain\_generation\_hh         | Average remaining generation DER capacity per household in kilowatts (kW)                       |
+| avg\_DER\_remain\_generation\_opflex\_hh | Average remaining generation DER capacity per household with operational felx in kilowatts (kW) |
+| avg\_DER\_total\_generation\_hh          | Average total generation DER per household in kilowatts (kW)                                    |
+| avg\_DER\_remain\_load\_hh               | Average remaining load capacity per household in kilowatts (kW)                                 |
+| avg\_DER\_total\_pv\_hh                  | Average total PV DER per household in kilowatts (kW)                                            |
+| zillow\_tract\_hh\_count                 | Zillow homes count                                                                              |
+
 ## Contributors
 - [Sofia Sarak](https://github.com/sofiasarak)
 - [Sofia Rodas](https://github.com/sofiiir)

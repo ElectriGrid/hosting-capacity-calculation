@@ -10,7 +10,7 @@ Additionally, customer type breakdown data from each utility was used in these c
 
 2. PG&E: In PG&E's [GRIPHubsite](https://grip.pge.com/), we selected & downloaded their `Distribution Lines (kV)` table within the comprehensive data table.
 
-3. SDG&E: SDG&E does not publish a complete customer type breakdown in their online portal, though these data appear when clicking on ciruit segments on their [Interconnection Map](https://interconnectionmapsdge.extweb.sempra.com/). Instead, we gathered customer type breakdown manually for parts of SDG&E's service area and filled in any parts that were not gathered by proximity.
+3. SDG&E: SDG&E does not publish a complete customer type breakdown in their online portal, though these data appear when clicking on ciruit segments in their [Interconnection Map](https://interconnectionmapsdge.extweb.sempra.com/). Instead, we gathered customer type breakdown manually for parts of SDG&E's service area and filled in any parts that were not gathered by proximity.
 
 ## Repository Structure
 

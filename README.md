@@ -26,7 +26,9 @@ Each notebook, named after its respective utility, contains household-level host
 
 To run this code, building point geometries (with information on the number of residential units) and ICA utility data is necessary.
 
-## Variable outputs
+## Output
+
+Each notebook produces a similar output file with the following variables that will be used in the [statistics](https://github.com/ElectriGrid/statistics) portion of this project.
 
 
 | Variable                                 | Description                                                                                     |
